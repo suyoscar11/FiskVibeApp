@@ -66,13 +66,23 @@ class _EventssState extends State<Eventss> {
           actions: [
             IconButton(
               icon: Icon(Icons.search),
-              onPressed: () {},
+              onPressed: () {
+                print("I got pressed");
+              },
             ),
           ],
         ),
         body: Column(
           children: [
-            // Search Bar and Date Navigator
+            SearchBar(
+              padding: MaterialStatePropertyAll<EdgeInsets>(
+                  EdgeInsets.symmetric(horizontal: 8.0)),
+              leading: Icon(Icons.search),
+              trailing: <Widget>[Icon(Icons.verified_user)],
+            ),
+            SizedBox(
+              height: 20,
+            ),
             Padding(
               padding: const EdgeInsets.all(8.0),
               child: Row(
@@ -96,7 +106,11 @@ class _EventssState extends State<Eventss> {
                 ],
               ),
             ),
+            SizedBox(
+              height: 20,
+            ),
             // Event List
+
             Expanded(
               child: ListView(
                 children: [
