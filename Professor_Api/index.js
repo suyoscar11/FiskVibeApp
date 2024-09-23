@@ -5,7 +5,7 @@ import professor from "./models/professor_model.js";
 import appointment from "./models/appointment.js";
 
 mongoose
-  .connect("mongodb://localhost/professor_appointment", {
+  .connect("mongodb://127.0.0.1:27017/professor_appointment", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
@@ -36,7 +36,8 @@ app.post("/api/user/registerUser", async (req, res) => {
     await User.save();
     res.status(200).json({ msg: "Success" });
   } catch (error) {
-    res.status(500).json({ msg: "Server Error" });
+    console.error("Error occurred during registration:", error); // Log the error
+    res.status(500).json({ msg: "Server Error", error: error.message });
   }
 });
 
