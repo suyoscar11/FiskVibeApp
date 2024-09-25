@@ -1,6 +1,7 @@
-# fisk_vibe_flutter
+# FiskVibe
 
-A new Flutter project.
+Centralizing Information happening around Fisk.
+#EmpoweringBlackPeopleInTech
 
 ## Getting Started
 
