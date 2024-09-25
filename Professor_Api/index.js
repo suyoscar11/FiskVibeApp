@@ -36,7 +36,7 @@ app.post("/api/user/registerUser", async (req, res) => {
     await User.save();
     res.status(200).json({ msg: "Success" });
   } catch (error) {
-    console.error("Error occurred during registration:", error); // Log the error
+    console.error("Error occurred during registration:", error);
     res.status(500).json({ msg: "Server Error", error: error.message });
   }
 });

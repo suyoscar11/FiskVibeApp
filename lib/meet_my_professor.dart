@@ -13,7 +13,9 @@ class _ProfessorState extends State<Professor> {
     return Scaffold(
       appBar: AppBar(
         title: Text("Schedule an Appointment"),
-        
+      ),
+      body: SingleChildScrollView(
+        child: Column(),
       ),
     );
   }
