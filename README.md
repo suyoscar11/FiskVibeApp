@@ -1,61 +1,31 @@
-FiskVibe - Centralizing Information for Fisk University
-Overview
-FiskVibe is a cross-platform web and mobile application designed to centralize campus information at Fisk University. This app streamlines access to events, resources, and professor appointments, enhancing the digital experience for students, faculty, and the entire Fisk community.
+# FiskVibe
 
-Features
-Centralized Information: Provides real-time updates on campus events, resources, and professor appointments.
-Cross-Platform Compatibility: Available as a web and mobile app for convenient access on various devices.
-Real-Time Updates: Capable of handling more than 2000 user requests concurrently.
-Technology Stack
-The app utilizes a modern technology stack to ensure smooth performance and scalability:
+**FiskVibe** is a **beta version** of a **cross-platform web and mobile app** aimed at centralizing all campus-related information at Fisk University. This app allows users to access events, resources, and schedule professor appointments on a single platform, elevating the digital experience for the entire Fisk community.
 
-Frontend:
-Flutter: Used for designing a Material UI, providing a seamless experience across platforms.
-Backend:
-Node.js: Powers the backend, ensuring efficient handling of requests.
-Express: Serves as the server framework, managing API endpoints and routing.
-MongoDB: Stores user data, events, resources, and appointments.
-Development Process
-Team: Developed by a team of two, following SCRUM methodology for effective team collaboration and productivity.
-Task Management: The project was organized and tracked using Notion, which helped with clear communication and documentation of the development process.
-Strategic Planning: Applied SWOT Analysis to identify project strengths, weaknesses, opportunities, and threats, leading to a successful beta launch.
-Installation
-Clone the repository:
+## Features
 
-bash
-Copy code
-git clone https://github.com/YourUsername/FiskVibe.git
-Install dependencies:
+- **Centralized Campus Information**: Events, resources, and professor appointments all in one place.
+- **Real-Time Updates**: Capable of handling requests from **2000+ users** simultaneously.
+- **Cross-Platform**: Available on both web and mobile platforms.
 
-bash
-Copy code
-cd FiskVibe
-npm install
-flutter pub get
-Start the server:
+## Technology Stack
 
-bash
-Copy code
-npm run start
-Run the Flutter app:
+- **Frontend**:  
+  - **Flutter**: For building the **Material UI**, delivering a consistent experience across platforms.
+  
+- **Backend**:  
+  - **Node.js**: Handles the server-side logic and API requests.
+  - **Express**: Server framework managing API routing and endpoints.
+  - **MongoDB**: Acts as the primary database for storing user data, events, and other app-related information.
 
-bash
-Copy code
-flutter run
-Contributing
-We welcome contributions! To contribute:
+## Development Process
 
-Fork the repository.
-Create a new branch for your feature:
-bash
-Copy code
-git checkout -b feature-name
-Commit your changes:
-bash
-Copy code
-git commit -m "Add feature"
-Push your branch:
-bash
-Copy code
-git push origin feature-name
-Submit a Pull Request.
+- **Team**: Worked in a team of **2 developers**, following the **SCRUM** methodology for effective collaboration and iteration.
+- **Task Management**: Used **Notion** to streamline task management, communication, and documentation.
+- **Strategic Analysis**: Applied **SWOT analysis** to ensure a smooth and successful beta launch.
+
+## Installation Instructions
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/YourUsername/FiskVibe.git
