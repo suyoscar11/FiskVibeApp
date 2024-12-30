@@ -199,7 +199,7 @@ app.get(
 
 // update appointment status to "Done" by ID
 
-app.put("/api/professor/updateAppointmentStatus:/_id", async (req, res) => {
+app.put("/api/professor/updateAppointmentStatus/:_id", async (req, res) => {
   const { _id } = req.params;
 
   try {

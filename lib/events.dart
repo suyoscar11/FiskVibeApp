@@ -75,7 +75,7 @@ class _EventssState extends State<Eventss> {
         body: Column(
           children: [
             SearchBar(
-              padding: MaterialStatePropertyAll<EdgeInsets>(
+              padding: WidgetStatePropertyAll<EdgeInsets>(
                   EdgeInsets.symmetric(horizontal: 8.0)),
               leading: Icon(Icons.search),
               trailing: <Widget>[Icon(Icons.verified_user)],
